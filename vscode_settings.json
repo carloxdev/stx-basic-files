@@ -1,0 +1,70 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "vscode-great-icons",
+    "python.analysis.extraPaths": [
+        "./envlnx/lib/",
+        "./Sitio",
+        "./Softtek",
+        "./Business",
+        "./Data",
+        "./Data/core",
+        "./Data/qos",
+        "./Webapi",
+        "./src",
+        "./lambda"
+    ],
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "autoDocstring.docstringFormat": "sphinx",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontFamily": "Monaco for Powerline",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    // "editor.lineHeight": 21,
+    "editor.letterSpacing": 0,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 4,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "all",
+    "trailing-spaces.trimOnSave": true,
+    "python.autoComplete.addBrackets": true,
+    "python.formatting.provider": "autopep8",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--ignore=D100,E501"],
+    "python.linting.pylintEnabled": false,
+    "python.linting.ignorePatterns": [
+        "Sitio/config/*.py"
+    ],
+    "workbench.startupEditor": "none",
+    "python.analysis.completeFunctionParens": true,
+    "sqltools.useNodeRuntime": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Local",
+            "database": "dbac",
+            "username": "carloxdev",
+            "password": "root12345"
+        }
+    ],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "redhat.telemetry.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
+}
