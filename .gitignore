@@ -23,19 +23,18 @@ Thumbs.db
 **/node_modules
 **/package-lock.json
 
-# DJANGO/PYTHON FILES
+# PYTHON FILES
 # ---------------------------------------
-media/*
-static/*
-config/settings_local.py
-# config/settings.py
-# **/migrations/*
 **/__pycache__
 *.pyc
 .env
-.env/
-.envlnx/
 .coverage
+
+# DJANGO
+# ---------------------------------------
+media/*
+static/*
+**/migrations/*
 
 # CELERY FILES
 # ---------------------------------------
@@ -64,3 +63,8 @@ celerybeat-schedule*
 .serverless
 .aws-sam
 samconfig.toml
+
+# BUILD DIRECTORIES
+# ---------------------------------------
+dist/*
+*.egg-info
