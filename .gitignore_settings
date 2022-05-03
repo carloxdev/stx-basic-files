@@ -52,17 +52,16 @@ celerybeat-schedule*
 .idea/
 .vscode
 
-# ELASTIC BEANSTALK FILES
+# AWS FILES
 # ---------------------------------------
-# .elasticbeanstalk/*
+.aws-sam
+samconfig.toml
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
-# SERVERLESS DIRECTORIES
+# SERVERLESS FRAMEWORK FILES
 # ---------------------------------------
 .serverless
-.aws-sam
-samconfig.toml
 
 # BUILD DIRECTORIES
 # ---------------------------------------
